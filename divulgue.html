@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CULTURA ON</title>
+	<link rel="stylesheet" type="text/css" href="divulgue.css">
+</head>
+<body>
+
+
+	<nav class="barra">
+    <ul>       
+    </ul>
+       <a href="tcc.html"><img src="123.png"></a>
+      <ul>
+      <li class="subl"><a href="quemsomos.html">Quem somos</a></li>           
+         <li class="subl"><a href="cadastro.html">Cadastre-se</a></li> 
+      <li class="subl"><a href="login.html">Login</a></li>
+      <li class="divulgue"><a href="divulgue.html">Divulgue seu projeto</a></li>
+    </ul>
+</nav>
+<div class="paz">
+
+	<h1>Divulgue seu projeto</h1>
+
+<div class="dados">
+	<h3>Insira seus dados</h3>
+      <div class="email">
+
+          <label for="email">Seu Email*</label>
+          <br>
+        <input id="emailid" name="email" type="text" placeholder="example@email.com">
+              <br>
+      </div>
+
+
+      <div class="projeto">
+          <label for="projeto">Nome do seu projeto*</label>
+          <br>
+          <input id="projetoid" name="projeto" type="text">
+      </div>
+
+      <div class="onde">
+
+	<label for="endereço">Endereço*</label>
+	<br>
+	<input type="text" name="endereço" id="endereçoid">
+<br>
+	<label for="bairro">Bairro*</label>
+	<br>
+	<input type="text" name="bairro" id="bairroid">
+<br>
+	<label for="referência">Ponto de referência (opcional)</label>
+	<br>
+	<input type="text" name="referência" id="referência">
+<br>
+
+
+</div>
+
+	
+
+</div>
+
+<div class="tipos">
+      	
+      	<h4>Em qual gênero/tipo seu projeto melhor se enquadra?</h4> 
+
+      	<div class="teatro0">
+		<label for="teatro">Teatro</label>
+        <input id="teatro" name="projeto" type="radio" value="teatro">
+		</div>
+        
+        <div class="museu0">
+        <label for="museu">Museu</label>
+        <input id="museu" name="projeto" type="radio" value="radio">
+        </div>
+          
+       	<div class="musica0">
+        <label for="musica">Música</label>
+        <input id="musica" name="projeto" type="radio" value="musica">
+        </div>    
+        
+        <div class="exposição0">
+        <label for="exposição">Exposição de arte</label>
+        <input id="exposição" name="projeto" type="radio" value="exposição">
+    	</div>
+        
+        <div class="projetos0">
+        <label for="projetos">Projeto social</label>
+        <input id="projetos" name="projeto" type="radio" value="projetos">
+		</div>  
+
+		<div class="projetos0">
+        <label for="projetos">Outro</label>
+        <input id="projetos" name="projeto" type="radio" value="projetos">
+		</div>  
+
+
+</div>
+
+
+
+  <div class="sobre">
+          <label for="sobre">Fale sobre seu projeto*</label>
+          <br>
+			<textarea id="sobre" name="sobre"
+          rows="15" cols="100">
+			</textarea>      
+</div>
+
+      	
+
+        
+
+
+  <div class="envio">
+  <a href="#" onclick= "send()"> Enviar</a>
+</div>
+
+	
+
+	
+	
+	</div>
+<footer>
+
+    <img src="123.png">
+    <div class="image">
+     <a href=""> <img src="0ff.png"></a>
+    <a href="">  <img src="0tt.png"></a>
+      <a href=""><img src="0ig.png"></a>
+    </div>
+
+    <div class="text">
+      <ul>
+        <a href=""><li>IOS 2022</li></a>
+        <a href=""><li>TCC</li></a>
+        <a href="quemsomos.html"><li>QUEM SOMOS</li></a>
+        <a href=""><li>TERMOS</li></a>
+       <a href=""> <li>POLÍTICA DE PRIVACIDADE</li></a>
+
+      </ul>
+    </div>
+
+
+ </footer> 
+
+  
+<script type="text/javascript">
+  
+  function send(){
+
+var email = document.getElementById("emailid");
+var projeto = document.getElementById("projetoid");
+var endereço = document.getElementById("endereçoid");
+var bairro = document.getElementById("bairroid");
+
+
+
+
+
+if(email.value == ""){
+  alert("Email não informado");
+  email.focus();
+  return;
+}
+
+if(projeto.value == ""){
+  alert("Projeto não informado");
+  projeto.focus();
+  return;
+}
+
+if(endereço.value == ""){
+  alert("Endereço não informado");
+  endereço.focus();
+  return;
+}
+
+if(bairro.value == ""){
+  
+  alert("Bairro não informado");
+  bairro.focus();
+  return;
+}
+
+window.location.href = 'projetoenviado.html';  
+}
+</script>
+
+</body>
+</html>
+	
+
+
+	
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
